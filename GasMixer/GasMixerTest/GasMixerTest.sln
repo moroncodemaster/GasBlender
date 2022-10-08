@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasMixerTest", "GasMixerTest\GasMixerTest.csproj", "{A84B213B-C012-4729-8994-CA5243E8532E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GasMixLogic", "..\GasMixLogic\GasMixLogic.csproj", "{103C08BE-BB2F-4E96-A461-937493487ED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84B213B-C012-4729-8994-CA5243E8532E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84B213B-C012-4729-8994-CA5243E8532E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84B213B-C012-4729-8994-CA5243E8532E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84B213B-C012-4729-8994-CA5243E8532E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103C08BE-BB2F-4E96-A461-937493487ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103C08BE-BB2F-4E96-A461-937493487ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103C08BE-BB2F-4E96-A461-937493487ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103C08BE-BB2F-4E96-A461-937493487ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B8858F2-2511-483B-B2D0-90D93090FEF7}
+	EndGlobalSection
+EndGlobal

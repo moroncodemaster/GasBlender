@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GasMixerTest/1.0.0": {
+        "dependencies": {
+          "GasMixLogic": "1.0.0"
+        },
+        "runtime": {
+          "GasMixerTest.dll": {}
+        }
+      },
+      "GasMixLogic/1.0.0": {
+        "runtime": {
+          "GasMixLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GasMixerTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GasMixLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
