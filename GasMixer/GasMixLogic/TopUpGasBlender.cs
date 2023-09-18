@@ -103,17 +103,11 @@ public class GasCalculator
 
     private double FindPressure(GasMix mix, double volume)
     {
-        var pressure = Math.Round(volume, 6);
-        volume = Math.Round(volume, 6);
-        var calc = Math.Abs(zfactor(1, mix) * pressure - zfactor(pressure, mix) + volume);
-        while (calc > 0.000001)
+        var pressure = volume;
+        while (Math.Abs(zfactor(1, mix) * pressure - zfactor(pressure, mix) * volume) > 0.000001)
         {
-            pressure = Math.Round(volume * zfactor(pressure, mix) / zfactor(1, mix), 6);
-            var zfac1 = zfactor(1, mix);
-            var zfac2 = zfactor(pressure, mix);
-            calc = Math.Round((zfac1 * pressure) - (zfac2 + volume), 6);
+            pressure = volume * zfactor(pressure, mix) / zfactor(1, mix);
         }
-
         return pressure;
     }
 
